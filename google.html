@@ -1,0 +1,67 @@
+<!-------------------------------Google 1998 web sayfası erternal CSS ile oluşturuldu------------------------------------>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google!</title>
+    <link rel="stylesheet" href="google.css">
+</head>
+
+<body>
+
+    <form method="get" action="https://www.google.com.tr/webhp?tab=rw">
+<!--------------------------------------------- Google Logo ---------------------------------------------------------->
+        <div class="mainpic">
+            <img src="https://web.archive.org/web/19990504112211im_/http://www.google.com/google.jpg" alt="Googlepic">
+        </div>
+<!--------------------------------------------- Gövde ---------------------------------------------------------->
+        <div>
+            <table class="genel">
+                <tbody>
+               <!-------------------------- Search Çubuğu ------------------------>
+                    <tr>
+                        <td class="arama" colspan="3">
+                            "Search the web using Google!"<br> 
+                            <input type="text" name="q" value size="40"><br>
+                            <input type="submit" value="Google Search">
+                            <input type="submit" value="I'm feeling lucky"><br>
+                        </td>
+                    </tr>
+                <!-------------------------- Special Searches ------------------------>
+                    <tr>                    
+                        <td class="ozel">
+                            "Special Searches"<br>
+                            <a href="https://google.com" target="_blank">Stanford Search</a><br>
+                            <a href="https://www.linux.org/" target="_blank">Linux Search</a>
+                        </td>
+                <!-------------------------- help ve info kutusu ------------------------>
+                        <td class="info">
+                            <a href="https://google.com" target="_blank">Help!</a><br>
+                            <a href="https://about.google/" target="_blank">About Google</a><br>
+                            <a href="https://about.google/" target="_blank">Company Info</a><br>
+                            <a href="https://www.google.com/doodles" target="_blank">Google! Logos</a><br>                       
+                        </td>
+                <!-------------------------- subscribe kutusu ------------------------>    
+                        <td class="abone">
+                            Get Google!<br>
+                            updates monthly:<br>
+                            <input type="hidden" name="listname" value="google-friends">
+                            <input type="text" name="emailaddr" value="your e-mail"><br>
+                            <input type="submit" name="SubmitAction" value="Subscribe">
+                            &nbsp;&nbsp;
+                            <a href="https://web.archive.org/web/19981202230410/http://www.findmail.com/list/google-friends/" target="_blank" font-size:>Archive</a>
+                        </td>
+                    </tr>
+                </tbody>                 
+            </table>
+                <p> </p>
+                <!-------------------------- copyright yazısı ------------------------>
+            <font id="copy">Copyright ©1998 Google Inc.</font>
+        </div>
+    </form>
+</body>
+<!-- html içerisinde şu an kullanılmayan çok fazla 'center' kodu olduğundan external CSS oluşturulurken tablo ortalamada
+     sorunlar yaşandı.Toparlayıcı bir çalışmaydı. Teşekkürler -->
+</html>
