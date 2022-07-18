@@ -1,0 +1,48 @@
+/*********************************************Google ana resim/logo*******************************************************/
+.mainpic {
+    text-align:center;
+    margin:auto; 
+}
+/*************************************************Body ve Tablo***********************************************************/
+body {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/********Tablo****************/
+
+table.genel {
+    text-align: center;
+    border: 0px;
+    margin: auto;
+    width: 90%;
+}
+
+/********Tablo formlar************/
+
+.arama {
+    background-color:#EEEEEE;           
+}
+
+.ozel {
+    width: 37%;
+    background-color: #7EE5DA;    
+}
+
+.info {
+    background-color: #7DD0FF;
+    font-size:13px;
+}
+
+.abone {
+    background-color:#63B3AA;
+    font-size: 13px;
+}
+
+/* Tablo altı copyright bilgisi*/
+
+#copy {
+    display: block;
+    text-align: center;
+    font-size: 13px;
+}
